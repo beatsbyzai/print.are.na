@@ -248,7 +248,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">This is the Dictionary of <u>Dark Matters</u>.</span>
               <sup className="wordinline">186</sup>
               <span className="author88210"> During the Summer of 2020, Dark Matters was taught by </span>
-              <span className="author134492">American Artist with the assistance of Zainab Aliyu. </span>
+              <span className="author134492">American Artist and Zainab Aliyu (TA) </span>
+              <span className="author88210">at the School for <u>Poetic Computation</u>. </span>
+              <sup className="wordinline">100 </sup>
               <span className="author88210">For ten weeks, we stewarded</span>
               <span className="author134492"> and taught </span>
               <span className="author88210">this class over </span>
@@ -258,7 +260,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">convened over and through national borders </span>
               <span className="author88210">to <u>study</u></span>
               <sup className="wordinline">482</sup>
-              <span className="author88210"> alongside us and with one another. We engaged in intimate practices of unlearning, deep listening and reflection. Most importantly, we studied “under the university,” a framing we borrow from theorist</span>
+              <span className="author88210"> alongside us and with one another. We engaged in intimate practices of unlearning, deep listening and reflection. Most importantly, we studied “under the university,” a framing we borrow from cultural theorist</span>
               <span className="author134492">s </span>
               <span className="author88210">Fred Moten </span>
               <span className="author134492">and Stefano Harney.</span>
@@ -279,13 +281,13 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">and </span>
               <span className="author134492"><u>ideology</u>'s</span>
               <sup className="wordinline">313 </sup>
-              <span className="author134492">tendencies towards</span>
-              <span className="author134492"><u>obfuscation</u>,</span>
-              <sup className="wordinline">386 </sup>
-              <span className="author88210">as well as </span>
             </p>
 
             <p className="About">
+              <span className="author134492">tendencies towards </span>
+              <span className="author134492"><u>obfuscation</u>,</span>
+              <sup className="wordinline">386 </sup>
+              <span className="author88210">as well as </span>
               <span className="author134492">American Artist's <u>Black Gooey Universe</u></span>
               <sup className="wordinline">100 </sup>
               <span className="author88210">and imagining of an unsovereign technology. </span>
@@ -325,11 +327,11 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">-19 </span>
               <span className="author134492">pandemic, </span>
               <span className="author88210">the ongoing movement for Black </span>
-              <span className="author88210"> Lives </span>
-              <span className="author134492">(particularly in response to the murder of</span>
             </p>
 
             <p className="About">
+              <span className="author88210"> Lives </span>
+              <span className="author134492">(particularly in response to the murder of</span>
               <span className="author134492"> George Floyd), </span>
               <span className="author88210">and </span>
               <span className="author134492">the calling out </span>
@@ -373,10 +375,10 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">archiving our histories and inserting our </span>
               <span className="author134492"><u>human</u></span>
               <sup className="wordinline">100 </sup>
-              <span className="author88210">experiences into the critical theories we are </span>
             </p>
 
             <p className="About">
+              <span className="author88210">experiences into the critical theories we are </span>
               <span className="author88210">learning, we are looking inwardly and actively engaging with the way we move through the world. It feels increasingly necessary, helping us to ask not only about the technologies, processes and policies that govern civil liberties, but also about whose bodies and freedoms </span>
               <span className="author134492">remain captive.</span>
             </p>
@@ -402,8 +404,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="neutral">Thank you to the School for Poetic Computation for holding space for us and Lauren Gardner for her immense support. A special thanks to Ingrid Burrington, Simone Browne, Zach Blas, Rashida Richardson, Stephanie Dinkins and Tsige Tafesse for joining our students in conversation throughout the session.</span>
             </p>
             <p className="Ack">
-              <span className="neutral">This book and its digital counterpart, darkmatters.xyz, was designed by Zainab Aliyu (cover designed in collaboration with American Artist), edited by Jessica Rajko, and assembled with the support of Are.na and Callil Capuozzo.</span>
+              <span className="neutral">This book, as well as its digital counterpart, https://darkmatters.xyz, was designed by Zainab Aliyu (cover designed in collaboration with American Artist), edited by Jessica Rajko, and assembled with the support of Are.na and Callil Capuozzo.</span>
             </p>
+
             </div>
 
 
