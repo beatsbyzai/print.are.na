@@ -41,7 +41,7 @@ const Img = styled.img`
 
 const P = styled.p<{ hasAuthor?: boolean }>`
   margin: 0;
-  font-size: 15.5pt;
+  font-size: 15pt;
   line-height: 1.25;
 
   overflow-wrap: break-word;
@@ -68,7 +68,7 @@ const P = styled.p<{ hasAuthor?: boolean }>`
 `
 
 const BigP = styled(P as any)`
-  font-size: 21pt;
+  font-size: 18pt;
   line-height: 1.25;
   padding-bottom: 0.25in;
   > p:first-child {
@@ -77,7 +77,7 @@ const BigP = styled(P as any)`
 `
 
 const SmallType = styled.div`
-  font-size: 12pt;
+  font-size: 10pt;
   line-height: 1.25;
   margin: 0.5em 0;
 
@@ -91,11 +91,12 @@ const SmallType = styled.div`
 
 const Source = styled(SmallType as any)`
   margin-top: 0;
+  display: none;
 `
 
 // const Description = styled(SmallType as any)`
 const Description = styled.div`
-  font-size: 12pt;
+  font-size: 10pt;
   // position: absolute;
   // top: 0;
   // bottom: 0;

@@ -160,7 +160,8 @@
   font-family: 'Kavivanar', cursive;
   /* font-family: 'Hershey', cursive;
   letter-spacing: -1px; */
-  color: #ff7a3f;
+  /* color: #ff7a3f; */
+  color: #ff8d1d;
 }
 
 
@@ -171,19 +172,22 @@
   font-family: bebas-neue-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffc20d;
+  /* color: #ffc20d; */
+  color: #ffcf0d;
 }
 
 /* krystal */
 .author173503.authorstyle {
   font-family: "Courier";
-  color: teal;
+  /* color: teal; */
+  color: #20B2AA;
 }
 
 /* teresa */
 .author173506.authorstyle {
   font-family: Arial;
-  color: #5113bd;
+  /* color: #5113bd; */
+  color: #7500DB;
 }
 
 /* angus */
@@ -228,7 +232,8 @@ span.author17810.authorstyle ,
 .author17810.authorstyle li,
 .author17810.authorstyle span.contrib
 {
-  background-color: #f2ffad;
+  /* background-color: #f2ffad; */
+  background-color: yellow;
 }
 
 
@@ -274,7 +279,8 @@ span.author17810.authorstyle ,
 /* kevin */
 .author173500.authorstyle {
   font-family: 'Reckless';
-  color: #DD1327;
+  /* color: #DD1327; */
+  color: #FF0000;
   line-height: 1.3;
 }
 
@@ -322,7 +328,8 @@ span.author17810.authorstyle ,
 /* miranda */
 .author173613.authorstyle {
   font-family: 'OCR';
-  color: #FF7A66;
+  /* color: #FF7A66; */
+  color: #ff8d1d;
 }
 
 /* cameron */
@@ -349,14 +356,16 @@ span.author17810.authorstyle ,
 /* rahel */
 .author162734.authorstyle {
   font-family: Georgia;
-  color: #000066;
+  /* color: #000066; */
+  color: #0000ee;
 }
 
 
 /* sus */
 .author173737.authorstyle {
   font-family: 'Gill Sans Italic';
-  color: #0511CF;
+  /* color: #0511CF; */
+  color: #0000ee;
 }
 
 /* tyler */
@@ -392,7 +401,8 @@ span.author17810.authorstyle ,
 /* matt ross */
 .author126808.authorstyle {
   font-family: 'Roboto Mono', monospace;
-  color: #556b2f;
+  /* color: #556b2f; */
+  color: #6b8e23;
 } .author126808.authorstyle p {
   font-style: italic;
 }
@@ -427,13 +437,15 @@ span.author17810.authorstyle ,
 /* makayla */
 .author102862.authorstyle {
   font-family: 'Avara';
-  color: orange;
+  /* color: orange; */
+  color: #ffcf0d;
 }
 
 /* bronte */
 .author173511.authorstyle {
   font-family: 'Hershey Times', cursive;
-  color: #b08213;
+  /* color: #b08213; */
+  color: #CC7722;
 } .author173511.authorstyle p {
   letter-spacing: -1px;
 }

@@ -115,9 +115,12 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
           },
           margin: {
             top: "0.3in",
-            inner: "0.65in",
-            outer: "0.35in",
-            bottom: "0.55in",
+            // inner: "0.65in",
+            inner: "0.75in",
+            // outer: "0.35in",
+            outer: "0.45in",
+            // bottom: "0.55in",
+            bottom: "0.65in",
           },
         },
         rules: [
@@ -235,7 +238,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               </div>
 
               <p className="Asterisk">
-                <span className="neutral">* Asterisk indicates that the contributor also has illustrations on the cover and/or sprinkled throughout book in the color of their name.</span>
+                <span className="neutral">* Asterisk indicates that the contributor also has illustrations on the cover and/or sprinkled throughout the book in the color of their name.</span>
               </p>
 
               <Contributors blocks={contents} />
@@ -245,21 +248,21 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             <SectionPage title="Introduction" />
 
             <p className="About">
-              <span className="author88210">This is the Dictionary of <u>Dark Matters</u>.</span>
-              <sup className="wordinline">186</sup>
+              <span className="author88210">This is the Dictionary of <u>Dark Matters</u>. </span>
+              {/* <sup className="wordinline">190</sup> */}
               <span className="author88210"> During the Summer of 2020, Dark Matters was taught by </span>
               <span className="author134492">American Artist and Zainab Aliyu (TA) </span>
               <span className="author88210">at the School for <u>Poetic Computation</u>. </span>
-              <sup className="wordinline">100 </sup>
+              {/* <sup className="wordinline">409 </sup> */}
               <span className="author88210">For ten weeks, we stewarded</span>
               <span className="author134492"> and taught </span>
               <span className="author88210">this class over </span>
               <span className="author134492">the video platform <u>Zoom</u>.</span>
-              <sup className="wordinline">559 </sup>
+              {/* <sup className="wordinline">563 </sup> */}
               <span className="author88210"> Thirty students </span>
               <span className="author134492">convened over and through national borders </span>
               <span className="author88210">to <u>study </u></span>
-              <sup className="wordinline">482</sup>
+              {/* <sup className="wordinline">487</sup> */}
               <span className="author88210"> alongside us and with one another. We engaged in intimate practices of unlearning, deep listening and reflection. Most importantly, we studied “under the university,” a framing we borrow from cultural theorist</span>
               <span className="author134492">s </span>
               <span className="author88210">Fred Moten </span>
@@ -267,58 +270,60 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </p>
 
             <p className="About">
-              <span className="author134492">The class, titled Dark Matters: <i>On Blackness, <u>Surveillance</u></i>,</span>
-              <sup className="wordinline">487 </sup>
+              <span className="author134492">The class, titled Dark Matters: <i>On Blackness, <u>Surveillance</u></i>, </span>
+              {/* <sup className="wordinline">492 </sup> */}
               <span className="author134492"> <i>and the Whiteness of the Screen</i>, takes it's namesake from Simone Browne's book <i>Dark Matters: On the Surveillance of Blackness</i>. </span>
               <span className="author88210">This critical text winds </span>
-              <span className="author134492">personal, political and pop-cultural narratives of <u>racial gaze</u></span>
-              <sup className="wordinline">442 </sup>
-              <span className="author134492"> and <u>sousveillance</u></span>
-              <sup className="wordinline">476 </sup>
+              <span className="author134492">personal, political and pop-cultural narratives of <u>racial gaze</u> </span>
+              {/* <sup className="wordinline">446 </sup> */}
+              <span className="author134492"> and <u>sousveillance</u> </span>
+              {/* <sup className="wordinline">481 </sup> */}
               <span className="author134492"> to address the origins of so many recurring dynamics of power that operate through high technology. The readings in our class began with Wendy Chun's critique of </span>
-              <span className="author88210"><u>software</u></span>
-              <sup className="wordinline">473 </sup>
+              <span className="author88210"><u>software </u> </span>
+              {/* <sup className="wordinline">479 </sup> */}
               <span className="author88210">and </span>
-              <span className="author134492"><u>ideology</u>'s</span>
-              <sup className="wordinline">313 </sup>
+              <span className="author134492"><u>ideology</u>'s </span>
+              {/* <sup className="wordinline">317 </sup> */}
+              <span className="author134492">tendencies towards </span>
+              <span className="author134492"><u>obfuscation</u>, </span>
+
             </p>
 
             <p className="About">
-              <span className="author134492">tendencies towards </span>
-              <span className="author134492"><u>obfuscation</u>,</span>
-              <sup className="wordinline">386 </sup>
+
+              {/* <sup className="wordinline">389 </sup> */}
               <span className="author88210">as well as </span>
-              <span className="author134492">American Artist's <u>Black Gooey Universe</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492">American Artist's <u>Black Gooey Universe</u> </span>
+              {/* <sup className="wordinline">82 </sup> */}
               <span className="author88210">and imagining of an unsovereign technology. </span>
               <span className="author134492">Over the four </span>
               <span className="author88210">sessions </span>
               <span className="author134492">that this class has been taught, we have introduced authors to the curriculum such as Jackie Wang, David N. Pellow, Lisa Sun-Hee Park and Ruha Benjamin. </span>
               <span className="author88210">Selected work by these authors hold </span>
-              <span className="author134492">the origins of the <u>interface</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492">the origins of the <u>interface</u> </span>
+              {/* <sup className="wordinline">349 </sup> */}
               <span className="author134492">to account for the continuation of <u>racial capitalism</u>,</span>
-              <sup className="wordinline">100 </sup>
-              <span className="author134492">the <u>debt state</u>,</span>
-              <sup className="wordinline">100 </sup>
-              <span className="author134492"><u>colonialism</u>,</span>
-              <sup className="wordinline">100 </sup>
-              <span className="author134492">the <u>white racial frame</u>,</span>
-              <sup className="wordinline">100 </sup>
+              {/* <sup className="wordinline">445 </sup> */}
+              <span className="author134492">the <u>debt state</u>, </span>
+              {/* <sup className="wordinline">195 </sup> */}
+              <span className="author134492"><u>colonialism</u>, </span>
+              {/* <sup className="wordinline">146 </sup> */}
+              <span className="author134492">the <u>white racial frame</u>, </span>
+              {/* <sup className="wordinline">557 </sup> */}
               <span className="author134492">and other </span>
               <span className="author88210">global practices that are deeply rooted in American colonial history.</span>
             </p>
 
             <p className="About">
               <span className="author88210">Dark Matters reminds us about the </span>
-              <span className="author134492"><u>panoptic</u></span>
-              <sup className="wordinline">100 </sup>
-              <span className="author88210">models and codes that construct the world we live in, their underlying ideologies, as well as the need for our consistent </span>
-              <span className="author134492"><u>reckoning</u>.</span>
-              <sup className="wordinline">100 </sup>
+              <span className="author88210"><u>panoptic</u> </span>
+              {/* <sup className="wordinline">399 </sup> */}
+              <span className="author88210">models and codes that construct the world we live in, their embedded value systems, as well as the need for our ongoing </span>
+              <span className="author134492"><u>reckoning</u>. </span>
+              {/* <sup className="wordinline">450 </sup> */}
               <span className="author88210">This class has given us intentional time to tend to ourselves as we contend with this </span>
-              <span className="author134492"><u>predatory state,</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492"><u>predatory state,</u> </span>
+              {/* <sup className="wordinline">418 </sup> */}
               <span className="author88210">to study the material while existing within the systems we are learning to name. Together, we studied theory, but theory is nothing without the lived experiences that inform it. </span>
               <span className="author134492">The duration of our time together coincided </span>
               <span className="author88210">with </span>
@@ -327,23 +332,26 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">-19 </span>
               <span className="author134492">pandemic, </span>
               <span className="author88210">the ongoing movement for Black </span>
+
             </p>
 
             <p className="About">
+
               <span className="author88210"> Lives </span>
-              <span className="author134492">(particularly in response to the murder of</span>
+              <span className="author134492">(particularly </span>
+              <span className="author134492">in response to the murder of</span>
               <span className="author134492"> George Floyd), </span>
               <span className="author88210">and </span>
               <span className="author134492">the calling out </span>
               <span className="author88210">of </span>
               <span className="author134492">various </span>
               <span className="author88210">academic institutions and places of work </span>
-              <span className="author134492">(including our own) for their perpetuation of <u>anti-blackness</u>.</span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492">(including our own) for their perpetuation of <u>anti-blackness</u>. </span>
+              {/* <sup className="wordinline">55 </sup> */}
               <span className="author134492">These issues framed all of our </span>
               <span className="author88210">conversations and largely </span>
-              <span className="author134492">informed our <u>communal ethic</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492">informed our <u>communal ethic</u> </span>
+              {/* <sup className="wordinline">163 </sup> */}
               <span className="author134492">of </span>
               <span className="author88210">shar</span>
               <span className="author134492">ing, </span>
@@ -362,24 +370,26 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">The </span>
               <span className="author88210">self-published </span>
               <span className="author134492">book you are reading is the culmination of all of that thought. It is a 500+ page (and growing) collaborative </span>
-              <span className="author88210"><u>people's dictionary</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author88210"><u>people's dictionary</u> </span>
+              {/* <sup className="wordinline">404 </sup> */}
               <span className="author88210">written over the course of ten weeks. </span>
-              <span className="author134492">It is an <u>abundance</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492">It is an <u>abundance</u> </span>
+              {/* <sup className="wordinline">35 </sup> */}
               <span className="author134492">of poetry, prose, creative writing, personal history and illustration </span>
               <span className="author88210">filled with terms we have come across during our time together. </span>
-              <span className="author134492">For <u>transparency</u>,</span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492">For <u>transparency</u>, </span>
+              {/* <sup className="wordinline">100 </sup> */}
               <span className="author88210">every voice within the dictionary is uniquely represented with the contributor's preference in typography. By </span>
               <span className="author88210">archiving our histories and inserting our </span>
-              <span className="author134492"><u>human</u></span>
-              <sup className="wordinline">100 </sup>
+              <span className="author134492"><u>human</u> </span>
+              {/* <sup className="wordinline">100 </sup> */}
+
+
             </p>
 
             <p className="About">
               <span className="author88210">experiences into the critical theories we are </span>
-              <span className="author88210">learning, we are looking inwardly and actively engaging with the way we move through the world. It feels increasingly necessary, helping us to ask not only about the technologies, processes and policies that govern civil liberties, but also about whose bodies and freedoms </span>
+              <span className="author88210">learning, we are looking inwardly and actively engaging with the way we move through the world. It feels progressively vital, helping us to not just interrogate the technologies, systems and policies that regulate civil rights, but also inquire about whose bodies </span>
               <span className="author134492">remain captive.</span>
             </p>
 

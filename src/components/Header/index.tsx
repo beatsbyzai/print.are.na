@@ -9,7 +9,8 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 12pt;
+  font-size: 10pt;
+  // margin-bottom: 0.175in;
   margin-bottom: 0.175in;
   max-width: 5.5in;
   min-height: 0.175in;

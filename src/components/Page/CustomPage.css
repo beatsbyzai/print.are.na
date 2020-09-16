@@ -26,19 +26,23 @@ img {
   margin-bottom: 0.25in !important;
 }
 p.description{
-  font-size: 14pt;
+  font-size: 12pt;
   padding-left: .2in;
   padding-top: .05in;
   padding-bottom: .05in !important;
-  line-height: 1.3;
+  line-height: 1.4;
   margin-block-start: 0in !important;
   margin-block-end: 0.25in !important;
   display: block;
   margin-bottom: 0in;
 }
 
+.author173504 p.description {
+  font-size: 14pt !important;
+}
+
 h2,  p.description h2{
-  font-size: 14pt;
+  font-size: 12pt;
   padding-left: 0in;
   padding-top: 0in;
   padding-bottom: 0in !important;
@@ -133,6 +137,20 @@ ol {
     padding-left: 0.15in !important;
 }
 
+.loader {
+  margin: 60px auto;
+  border: 10px solid #555; /* Light grey */
+  border-top: 10px solid #fff; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 
 blockquote {
@@ -151,11 +169,11 @@ blockquote {
 
 
 .📖-left .block  {
-    left: -.35in;
+    left: -.45in;
 }
 
 .📖-right .block  {
-    left: -.65in;
+    left: -.75in;
 }
 
 
@@ -165,7 +183,7 @@ blockquote {
 }
 
 .About {
-  font-size: 15.5pt;
+  font-size: 15pt;
   line-height: 1.3;
   /* line-height: 1.1; */
 }
@@ -179,7 +197,7 @@ blockquote {
   text-indent: -.12in;
   /* margin-left: .05in; */
   line-height: 1;
-  font-size: 15.5pt;
+  font-size: 15pt;
 }
 
 
@@ -210,10 +228,10 @@ sup.wordinline {
 
 
 .contributors {
-  font-size: 17pt;
-  line-height: 1.65;
+  font-size: 16pt;
+  line-height: 1.75;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 25px;
   text-align: center;
 }
 
@@ -338,7 +356,7 @@ sup.wordinline {
   background-image: url("../../overlays/sus-trust.png");
 }
 
-.block7443310{
+.block7445521{
   background-image: url("../../overlays/sus-time.png");
 }
 
@@ -446,4 +464,69 @@ sup.wordinline {
 
 .block7842743{
   background-image: url("../../overlays/tyler-gratuitous.png");
+}
+
+.block7416844{
+  background-image: url("../../overlays/zai-abstraction.png");
+}
+
+.block7445808{
+  background-image: url("../../overlays/zai-abstraction2.png");
+}
+
+.block7446147{
+  background-image: url("../../overlays/zai-causal.png");
+}
+
+.block7428890{
+  background-image: url("../../overlays/zai-knowledge.png");
+}
+
+.block7774200{
+  background-image: url("../../overlays/zai-empire.png");
+}
+
+.block7523613{
+  background-image: url("../../overlays/zai-biometric.png");
+}
+
+.block7925812{
+  background-image: url("../../overlays/zai-ontology.png");
+}
+
+.block7765822{
+  background-image: url("../../overlays/zai-stolen.png");
+}
+
+.block7768290{
+  background-image: url("../../overlays/zai-anthro.png");
+}
+
+.block7768407{
+  background-image: url("../../overlays/zai-anthro2.png");
+}
+
+.block7929183{
+  background-image: url("../../overlays/zai-skin.png");
+}
+
+.block7838628{
+  background-image: url("../../overlays/zai-body.png");
+}
+
+.block7925766{
+  background-image: url("../../overlays/zai-pig.png");
+}
+
+.block7446448{
+  background-image: url("../../overlays/zai-input.png");
+}
+
+.block7443310{
+  background-image: url("../../overlays/zai-analog.png");
+}
+
+.page8223500 .description,.sc-fznyAO.juolFQ hr,
+body > div.📖-root.📖-show-crop.📖-view-preview > div.📖-zoom-scaler > div > div:nth-child(275) > div.📖-page.📖-left > div.📖-page-background {
+  display: none !important;
 }

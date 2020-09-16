@@ -5,9 +5,12 @@ const Title = styled.h6`
   font-weight: normal;
   margin: 0;
   font-size: 16pt;
+  text-align:center;
+  width: 100%;
 `
 
 const Container = styled.div`
+  text-align:center;
   position: absolute;
   top: 0;
   left: 0;
@@ -36,9 +39,9 @@ const LoadingPage: React.FC<LoadingPageProps> = ({ slug, totalPages }) => {
   return (
     <Container className="page cover">
       <Title>
-        Loading the Dictionary of Dark Matters...
+        Loading "The Dictionary of Dark Matters"
         {/* Converting channel <Slug>{newSlug}</Slug> into a book... */}
-      </Title>
+      </Title><div className="loader"></div>
       {totalPages && (
         <>
           {/* <Title>Creating {totalPages * 50} pages...</Title> */}
