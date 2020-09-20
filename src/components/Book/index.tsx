@@ -114,13 +114,14 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             height: "8.5in",
           },
           margin: {
-            top: "0.3in",
+            // top: "0.3in",
+            top: "0.4in",
             // inner: "0.65in",
             inner: "0.75in",
             // outer: "0.35in",
             outer: "0.45in",
             // bottom: "0.55in",
-            bottom: "0.65in",
+            bottom: "0.75in",
           },
         },
         rules: [
@@ -282,13 +283,13 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492"><u>ideology</u>'s </span>
               {/* <sup className="wordinline">317 </sup> */}
               <span className="author134492">tendencies towards </span>
-              <span className="author134492"><u>obfuscation</u>, </span>
-              <span className="author88210">as well as </span>
-              <span className="author134492">American Artist's <u>Black</u> </span>
 
             </p>
 
             <p className="About">
+              <span className="author134492"><u>obfuscation</u>, </span>
+              <span className="author88210">as well as </span>
+              <span className="author134492">American Artist's <u>Black</u> </span>
 
               {/* <sup className="wordinline">389 </sup> */}
               <span className="author134492"><u>Gooey Universe</u> </span>
@@ -327,6 +328,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">with </span>
               <span className="author134492">the </span>
               <span className="author88210">COVID</span>
+            </p>
+
+            <p className="About">
               <span className="author134492">-19 </span>
               <span className="author134492">pandemic, </span>
               <span className="author88210">the ongoing movement for Black </span>
@@ -334,9 +338,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">(particularly </span>
               <span className="author134492">in response to the murder </span>
 
-            </p>
+            {/* </p>
 
-            <p className="About">
+            <p className="About"> */}
 
 
               <span className="author134492">of George Floyd), </span>
@@ -378,16 +382,15 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">filled with terms we have come across during our time together. </span>
               <span className="author134492">For <u>transparency</u>, </span>
               {/* <sup className="wordinline">100 </sup> */}
-              <span className="author88210">every voice within the dictionary is uniquely represented with the contributor's preference in typography. By </span>
-              <span className="author88210">archiving our histories and inserting our </span>
+              <span className="author88210">every voice within the dictionary is uniquely represented with the contributor's preference in typography. By archiving our histories and inserting our </span>
               <span className="author134492"><u>human</u> </span>
               {/* <sup className="wordinline">100 </sup> */}
               <span className="author88210">experiences into the critical theories we are </span>
 
 
-            </p>
+            {/* </p>
 
-            <p className="About">
+            <p className="About"> */}
 
               <span className="author88210">learning, we are looking inwardly and actively engaging with the way we move through the world. It feels progressively vital, helping us to not just interrogate the technologies, systems and policies that regulate civil rights, but also inquire about whose bodies </span>
               <span className="author134492">remain captive.</span>

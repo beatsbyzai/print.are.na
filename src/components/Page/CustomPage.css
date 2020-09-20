@@ -176,6 +176,11 @@ blockquote {
     left: -.75in;
 }
 
+.page.📖-continuation.📖-continues {
+    /* margin-top: 0.335in; */
+    margin-top: 0.25in !important;
+}
+
 
 .margin-top {
   margin-top: 1in;
@@ -185,11 +190,14 @@ blockquote {
 .About {
   font-size: 15pt;
   line-height: 1.3;
+  margin-bottom: .3in;
   /* line-height: 1.1; */
 }
 
 .Ack{
   line-height: 1.3 !important;
+  margin-block-start: 0em !important;
+  /* margin-block-end: 0in !important; */
 }
 
 
@@ -315,7 +323,7 @@ sup.wordinline {
   z-index: -1;
   position: absolute;
   /* left: -.35in; */
-  top: -.3in;
+  top: -.4in;
   /* background-size: contain; */
   background-size: cover;
   background-repeat: no-repeat;

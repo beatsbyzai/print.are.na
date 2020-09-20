@@ -11,7 +11,8 @@ const Container = styled.div<{ isRight: boolean }>`
   pointer-events: none;
   // font-weight: bold;
   position: absolute;
-  bottom: 0.15in;
+  // bottom: 0.15in;
+  bottom: 0.25in;
   font-family: "Special Elite", cursive;
 `
 
