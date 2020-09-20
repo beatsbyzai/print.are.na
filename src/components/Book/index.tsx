@@ -382,7 +382,11 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">filled with terms we have come across during our time together. </span>
               <span className="author134492">For <u>transparency</u>, </span>
               {/* <sup className="wordinline">100 </sup> */}
-              <span className="author88210">every voice within the dictionary is uniquely represented with the contributor's preference in typography. By archiving our histories and inserting our </span>
+              <span className="author88210">every voice within the dictionary is uniquely represented with the </span>
+            </p>
+
+            <p className="About">
+              <span className="author88210">contributor's preference in typography. By archiving our histories and inserting our </span>
               <span className="author134492"><u>human</u> </span>
               {/* <sup className="wordinline">100 </sup> */}
               <span className="author88210">experiences into the critical theories we are </span>
