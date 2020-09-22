@@ -12,7 +12,7 @@ const Container = styled.div<{ isRight: boolean }>`
   // font-weight: bold;
   position: absolute;
   // bottom: 0.15in;
-  bottom: 0.25in;
+  bottom: 0.27in;
   font-family: "Special Elite", cursive;
 `
 
