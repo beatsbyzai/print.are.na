@@ -277,9 +277,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492"> and <u>sousveillance</u> </span>
               {/* <sup className="wordinline">481 </sup> */}
               <span className="author134492"> to address the origins of so many recurring dynamics of power that operate through high technology. The readings in our class began with Wendy Hui Kyong Chun's critique of </span>
-              <span className="author88210"><u>software </u> </span>
+              <span className="author88210"><u>software</u> </span>
               {/* <sup className="wordinline">479 </sup> */}
-              <span className="author88210">and </span>
+              <span className="author88210"> and </span>
               <span className="author134492"><u>ideology</u>'s </span>
               {/* <sup className="wordinline">317 </sup> */}
               <span className="author134492">tendencies towards </span>
@@ -310,7 +310,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">the <u>white racial frame</u>, </span>
               {/* <sup className="wordinline">557 </sup> */}
               <span className="author134492">and other </span>
-              <span className="author88210">global practices that are deeply rooted in American colonial history.</span>
+              <span className="author88210">global practices that are deeply rooted in the colonial history of the United States.</span>
             </p>
 
             <p className="About">
@@ -424,7 +424,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="neutral">This book was designed by Zainab Aliyu (cover designed in collaboration with American Artist), edited by Jessica Rajko, and assembled with the support of Are.na and Callil Capuozzo.</span>
             </p>
             <p className="Ack">
-              <span className="neutral">Our digital website can be visited at https://darkmatters.xyz and was designed and developed by Zainab Aliyu.</span>
+              <span className="neutral">Our digital website can be visited at darkmatters.xyz and was designed and developed by Zainab Aliyu.</span>
               </p>
 
             </div>
