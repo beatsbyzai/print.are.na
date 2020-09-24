@@ -39,7 +39,7 @@ const LoadingPage: React.FC<LoadingPageProps> = ({ slug, totalPages }) => {
   return (
     <Container className="page cover">
       <Title>
-        Loading "The Dictionary of Dark Matters"
+        {/* Loading "The Dictionary of Dark Matters" */}
         {/* Converting channel <Slug>{newSlug}</Slug> into a book... */}
       </Title><div className="loader"></div>
       {totalPages && (
